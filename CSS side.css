@@ -1,0 +1,98 @@
+header {
+  outline-style: solid;
+  background-color: burlywood;
+  opacity: 1;
+  
+}
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: burlywood;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: green;
+}
+
+body {
+  background-image: url("save-clean-planet-world-environment-ecology-earth-day-concept-hand-holding-tree-sunny-green-grass-bokeh-background-255244983.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.row {   
+  width: 55%;
+  margin: auto;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+}
+
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+  text-align: left;
+
+
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hp  {
+  float: right;    
+   margin: 0 0 0 15px;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 540px;
+    background-color: burlywood;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
